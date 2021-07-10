@@ -199,8 +199,3 @@ mobileProductDropdownBtn.addEventListener("click", dropDown1Mobile);
 mobileCompanyDropdownBtn.addEventListener("click", dropDown2Mobile);
 mobileConnectDropdownBtn.addEventListener("click", dropDown3Mobile);
 
-document.addEventListener('click', function(){
-    deactivateMobileProductDropdown();
-    deactivateMobileCompanyDropdown();
-    deactivateMobileConnectDropdown();
-})
